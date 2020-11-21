@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using System.Diagnostics;
 
-public class Time : MonoBehaviour
+public class timerController : MonoBehaviour
 {
     public Stopwatch stopwatch = new Stopwatch();
     // Start is called before the first frame update
