@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     private int timeEnemy = 1;
-    public GameObject van;
+    public GameObject[] car;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,9 +15,12 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int choice;
+        choice = Random.Range(0, car.Length);
+
         timeEnemy++;
-        if(timeEnemy % 100 == 0){
-            Instantiate(van, this.transform.position, this.transform.rotation);
+        if(timeEnemy % 250 == 0){
+            Instantiate(car[choice], this.transform.position, this.transform.rotation);
         }
     }
 }
