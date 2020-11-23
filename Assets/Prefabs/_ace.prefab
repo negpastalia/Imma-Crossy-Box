@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2776201747206399319}
   m_Layer: 0
   m_Name: wheel_backRight
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,10 +92,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3693264876283691872}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 45928071112724564, guid: 361bb82ac2c90c540aae1f96945b6610, type: 3}
 --- !u!1 &3970152672990769957
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 2608958251734295683}
   m_Layer: 0
   m_Name: wheel_frontLeft
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,10 +190,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3970152672990769957}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5281835330098238887, guid: 361bb82ac2c90c540aae1f96945b6610, type: 3}
 --- !u!1 &6018168136699452876
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 1877352325755788085}
   m_Layer: 0
   m_Name: wheel_frontRight
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,10 +288,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6018168136699452876}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3046150549580104586, guid: 361bb82ac2c90c540aae1f96945b6610, type: 3}
 --- !u!1 &6221522129679135761
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 3007750100072385957}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,10 +436,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7460368215544275586}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8545447256379345787, guid: 361bb82ac2c90c540aae1f96945b6610, type: 3}
 --- !u!1 &8851291068990839165
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 3527580439996288967}
   m_Layer: 0
   m_Name: wheel_backLeft
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,9 +534,9 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8851291068990839165}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2185217709625990164, guid: 361bb82ac2c90c540aae1f96945b6610, type: 3}

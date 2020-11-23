@@ -14,10 +14,4 @@ public class CarMove_Right : MonoBehaviour
     {
         this.transform.Translate(new Vector3(0f, 0f, speed) * Time.deltaTime);
     }
-
-    private void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.name == "CarDestroyerRight"){
-            Destroy(this.gameObject);
-        }
-    }
 }

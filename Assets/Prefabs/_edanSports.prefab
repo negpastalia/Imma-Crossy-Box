@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1029258327739719464}
   - component: {fileID: 3806533746947839162}
   - component: {fileID: 5026766261445347272}
+  - component: {fileID: 7254929735042572795}
   m_Layer: 0
   m_Name: wheel_frontLeft
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,6 +83,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7254929735042572795
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262779765025065907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5281835330098238887, guid: d1f8efa4585a7e042a16f1f3d2214c47, type: 3}
 --- !u!1 &575432475955002358
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,9 +108,10 @@ GameObject:
   - component: {fileID: 8332649171811936040}
   - component: {fileID: 1275039583640447994}
   - component: {fileID: 7691811331726804912}
+  - component: {fileID: 7145683269875978595}
   m_Layer: 0
   m_Name: wheel_backRight
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,6 +180,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7145683269875978595
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575432475955002358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 45928071112724564, guid: d1f8efa4585a7e042a16f1f3d2214c47, type: 3}
 --- !u!1 &5650713835143504363
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,9 +205,10 @@ GameObject:
   - component: {fileID: 3752469698908419278}
   - component: {fileID: 7303356449253710773}
   - component: {fileID: 4282505622580024698}
+  - component: {fileID: 481326446740744672}
   m_Layer: 0
   m_Name: wheel_backLeft
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,6 +277,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &481326446740744672
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5650713835143504363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2185217709625990164, guid: d1f8efa4585a7e042a16f1f3d2214c47, type: 3}
 --- !u!1 &5995919764503255572
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,9 +302,10 @@ GameObject:
   - component: {fileID: 4648686576367719657}
   - component: {fileID: 6190506771002149936}
   - component: {fileID: 1976814244165782378}
+  - component: {fileID: 1284230458225733482}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,6 +379,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1284230458225733482
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995919764503255572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8545447256379345787, guid: d1f8efa4585a7e042a16f1f3d2214c47, type: 3}
 --- !u!1 &7127524162336574599
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,9 +453,10 @@ GameObject:
   - component: {fileID: 7969301999766657558}
   - component: {fileID: 7096660996411181139}
   - component: {fileID: 8757842208274872356}
+  - component: {fileID: 7508645263788156601}
   m_Layer: 0
   m_Name: wheel_frontRight
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,6 +525,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7508645263788156601
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438134690040505690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3046150549580104586, guid: d1f8efa4585a7e042a16f1f3d2214c47, type: 3}
 --- !u!1 &8281608119926153676
 GameObject:
   m_ObjectHideFlags: 0

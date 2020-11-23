@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3300720}
   - component: {fileID: 2388372}
   - component: {fileID: 1731066786699413984}
+  - component: {fileID: 3846045492525484217}
   m_Layer: 0
   m_Name: CardboardBox_1
   m_TagString: Untagged
@@ -92,5 +93,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1d87a5a48e3d15449e319505c909ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerController: {fileID: 0}
+  timerController: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  inputQ: {fileID: 0}
+  inputW: {fileID: 0}
+  inputE: {fileID: 0}
+  inputA: {fileID: 0}
+  inputS: {fileID: 0}
+  inputD: {fileID: 0}
+  inputQDeactive: {fileID: 0}
+  inputQActive: {fileID: 0}
+  inputWDeactive: {fileID: 0}
+  inputWActive: {fileID: 0}
+  inputEDeactive: {fileID: 0}
+  inputEActive: {fileID: 0}
+  inputADeactive: {fileID: 0}
+  inputAActive: {fileID: 0}
+  inputSDeactive: {fileID: 0}
+  inputSActive: {fileID: 0}
+  inputDDeactive: {fileID: 0}
+  inputDActive: {fileID: 0}
+  isAlive: 0
+  isPause: 0
+  allowMove: 0
+--- !u!114 &3846045492525484217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9d55ab20be0c541ab509c8a90c17bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
