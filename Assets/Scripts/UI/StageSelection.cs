@@ -15,6 +15,7 @@ public class StageSelection : MonoBehaviour
 
     public void BackToMainMenu()
     {
+        Destroy(GameInfo);
         SceneManager.LoadScene(0);
     }
 
