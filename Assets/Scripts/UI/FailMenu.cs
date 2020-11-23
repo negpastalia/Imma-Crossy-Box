@@ -18,6 +18,7 @@ public class FailMenu : MonoBehaviour
 
     public void ExitToMainMenu()
     {
+        Destroy(gameInfo);
         SceneManager.LoadScene(0);
     }
 }

@@ -65,9 +65,9 @@ public class FinalScene : MonoBehaviour
 
             // Rating configuration for stage 3
             case 3:
-                if (minutes < 5) Boxs1.SetActive(true);
-                if (minutes < 2) Boxs2.SetActive(true);
-                if (minutes < 1) Boxs3.SetActive(true);
+                if (minutes < 12) Boxs1.SetActive(true);
+                if (minutes < 7) Boxs2.SetActive(true);
+                if (minutes < 5) Boxs3.SetActive(true);
                 break;
 
             // Error

@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public GameObject gameInfo;
 
     public GameObject pauseMenu;
+    public GameObject debugMenu;
+
     public GameObject
         inputQ, inputW, inputE, inputA, inputS, inputD;
     public Sprite
@@ -36,6 +38,9 @@ public class PlayerController : MonoBehaviour
         allowMove = 3;
         rb = GetComponent<Rigidbody>();
         gameInfo = GameObject.Find("GameInfo");
+
+        if (gameInfo.GetComponent<GameInfo>().DebugMode) debugMenu.SetActive(true);
+        else debugMenu.SetActive(false);
 
         timerController.StartStopwatch();
     }
@@ -69,6 +74,12 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.D)) inputD.GetComponent<SpriteRenderer>().sprite = inputDActive;
             if (Input.GetKeyUp(KeyCode.D)) inputD.GetComponent<SpriteRenderer>().sprite = inputDDeactive;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            if (Cursor.visible) Cursor.visible = false;
+            else Cursor.visible = true;
         }
 
         // Esc Menu
@@ -133,6 +144,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Win" && isAlive)
         {
             Cursor.visible = true;
+            isAlive = false;
             isPause = true;
             Time.timeScale = 0;
             gameInfo.GetComponent<GameInfo>().timer = timerController.GetFinalTime();
