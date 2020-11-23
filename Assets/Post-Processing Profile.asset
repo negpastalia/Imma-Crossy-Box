@@ -93,10 +93,10 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.32
+    value: -0.12
   contrast:
     overrideState: 1
-    value: -10
+    value: 8
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -1345,13 +1345,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   intensity:
     overrideState: 1
-    value: 5.31
+    value: 2
   threshold:
     overrideState: 0
     value: 1
@@ -1421,7 +1421,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.05
+    value: 0.2
   fastMode:
     overrideState: 0
     value: 0
@@ -1446,10 +1446,10 @@ MonoBehaviour:
     value: 3.12
   aperture:
     overrideState: 1
-    value: 3.1
+    value: 3.8
   focalLength:
     overrideState: 1
-    value: 38
+    value: 43
   kernelSize:
     overrideState: 1
     value: 3
