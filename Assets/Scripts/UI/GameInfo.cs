@@ -15,6 +15,7 @@ public class GameInfo : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         Stage = -1;
         if (!spawnedGameInfo)
         {
