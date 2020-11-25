@@ -62,23 +62,23 @@
     <Compile Include="Assets\Scripts\UI\GameInfo.cs" />
     <Compile Include="Assets\Scripts\Vehicle\CarDestroyer.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu\AudioManager.cs" />
     <Compile Include="Assets\Scripts\UI\FailMenu.cs" />
     <Compile Include="Assets\Scripts\UI\FinalScene\MenuButton.cs" />
     <Compile Include="Assets\Scripts\UI\FinalButton.cs" />
+    <Compile Include="Assets\Scripts\UI\DebugMode.cs" />
     <Compile Include="Assets\Scripts\Menu\PauseMenuLogic.cs" />
     <Compile Include="Assets\Scripts\Vehicle\CarMove_Right.cs" />
     <Compile Include="Assets\Scripts\UI\FinalScene.cs" />
     <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeTimeScale.cs" />
     <Compile Include="Assets\Scripts\Controller\TimerController.cs" />
     <Compile Include="Assets\Scripts\UI\StageSelection.cs" />
     <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\FinalScene\NextButton.cs" />
+    <Compile Include="Assets\Scripts\Controller\AudioController.cs" />
     <Compile Include="Assets\Scripts\Spawner\Spawner.cs" />
     <Compile Include="Assets\Scripts\Vehicle\CarMove.cs" />
-    <Compile Include="Assets\Scripts\Menu\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Controller\AudioController.cs" />
-    <Compile Include="Assets\Scripts\UI\DebugMode.cs" />
-    <Compile Include="Assets\Scripts\UI\ChangeTimeScale.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
